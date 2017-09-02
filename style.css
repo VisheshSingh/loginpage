@@ -48,3 +48,27 @@ h2{
     box-sizing: border-box;
     font-size: 16px;
 }
+
+.inputBox input[type="text"]:focus,
+.inputBox input[type="password"]:focus{
+    border-bottom: 2px solid #f00;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox span{
+    position: absolute;
+    top: 10px;
+    color: #262626;
+}
+.inputBox input[type="submit"]{
+    background: #ed292a;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 16px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
